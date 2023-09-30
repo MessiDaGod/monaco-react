@@ -109,6 +109,12 @@ export type EditorProps = {
   wrapperProps?: object;
 
   /**
+   * Optional children to be rendered inside the MonacoContainer.
+   * Useful for adding custom components within the editor container.
+   */
+  children?: React.ReactNode;
+
+  /**
    * Signature: function(monaco: Monaco) => void
    * An event is emitted before the editor is mounted
    * It gets the monaco instance as a first argument

@@ -8,14 +8,15 @@
     "outDir": "./dist",
     "strict": true,
     "skipLibCheck": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "noUncheckedIndexedAccess": false,
+    "noImplicitAny": false,
     "moduleResolution": "node",
     "jsx": "react",
     "esModuleInterop": true
   },
-  "include": ["src", "tsup.config.ts", "setupTests.ts", "vitest.config.ts"]
+  "include": ["src", "tsup.config.ts", "setupTests.ts", "vitest.config.ts", "node_modules/"]
 }

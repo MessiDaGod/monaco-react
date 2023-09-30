@@ -19,7 +19,7 @@ function Editor({
   language,
   path,
   /* === */
-  theme = 'light',
+  theme = 'vs-dark',
   line,
   loading = 'Loading...',
   options = {},
