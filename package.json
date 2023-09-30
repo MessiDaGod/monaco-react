@@ -1,8 +1,8 @@
 {
   "name": "@monaco-editor/react",
-  "version": "4.5.2",
+  "version": "4.5.3",
   "description": "Monaco Editor for React - use the monaco-editor in any React application without needing to use webpack (or rollup/parcel/etc) configuration files / plugins",
-  "author": "Suren Atoyan <contact@surenatoyan.com>",
+  "author": "Suren Atoyan <shakelyconsulting@gmail.com",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suren-atoyan/monaco-react.git"
+    "url": "git+https://github.com/MessiDaGod/monaco-react"
   },
   "keywords": [
     "monaco",
@@ -27,9 +27,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/suren-atoyan/monaco-react/issues"
+    "url": "https://github.com/MessiDaGod/monaco-react/issues"
   },
-  "homepage": "https://github.com/suren-atoyan/monaco-react#readme",
+  "homepage": "https://github.com/MessiDaGod/monaco-react#readme",
   "peerDependencies": {
     "monaco-editor": ">= 0.25.0 < 1",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
